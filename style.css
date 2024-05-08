@@ -1,0 +1,541 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0px;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+#gnldiv {
+  width: 100%;
+  height: 700px;
+  background-image: url(home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+#banner {
+  width: 90%;
+  height: 110px;
+  background-color: white;
+  margin-top: 40px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: row;
+}
+#bKapsayici {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+#logo {
+  width: auto;
+  height: auto;
+  margin: 10px;
+}
+#lg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+#yazilardiv {
+  width: 75%;
+  height: 100px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.yazi:hover {
+  border-bottom: 3px red solid;
+}
+#iconlar {
+  width: 90px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#byazi {
+  font-size: 70px;
+  color: white;
+  margin: 5px;
+  margin-left: 50px;
+}
+#byazi2 {
+  font-size: 70px;
+  color: white;
+  margin: 5px;
+  margin-left: 50px;
+}
+#kyazi {
+  width: 600px;
+  height: auto;
+  font-weight: 100;
+  color: white;
+  margin: 5px;
+  margin-left: 50px;
+}
+#btn {
+  width: 150px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+#altkisim {
+  width: 100%;
+  height: auto;
+  background-color: rgb(230, 39, 39);
+}
+.kapsayiciyz {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 3px white solid;
+  margin-left: 20px;
+}
+.menuler1 {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.menu {
+  color: black;
+  font-size: 70px;
+  font-weight: 300;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.our {
+  color: white;
+  font-size: 70px;
+  font-weight: 300;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.menuler {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.menuu {
+  width: 350px;
+  height: 500px;
+  background-color: white;
+  border-radius: 25px;
+  margin: 15px;
+  flex-direction: row;
+}
+.menursm {
+  width: 350px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rsm {
+  width: 350px;
+  height: 300px;
+}
+.klnyazi {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.fiyat {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.fyt1 {
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 25px;
+}
+.fyt2 {
+  font-size: 15px;
+  font-weight: 300;
+  text-decoration: line-through;
+  margin-left: 5px;
+}
+.btnn {
+  width: 150px;
+  height: 70px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+  
+}
+.ortamenu {
+  width: 100%;
+  height: auto;
+  background-color: rgb(230, 39, 39);
+  display: flex;
+  flex-direction: row;
+}
+.klnyazio {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.ekle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  margin-top: -70px;
+  margin-right: 20px;
+}
+.yazikck {
+  width: auto;
+  height: auto;
+  margin: 25px;
+  font-size: 20px;
+  margin-top: 15px;
+}
+#rsmArkaP {
+  background-image: url(dark-product.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 550px;
+  border-radius: 25px;
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+}
+#bacon {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: white;
+}
+#arkapln{
+  width: 350px;
+  height: 500px;
+  background-color: white;
+  border-radius: 25px;
+  margin: 15px;
+  flex-direction: row;
+  background-image: url(dark-product.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#ucrt{
+  width: auto;
+  height: auto;
+  display: flex;
+  gap: 10px;
+}
+#ucret1 {
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 25px;
+  
+}
+#ucret2 {
+  font-size: 15px;
+  font-weight: 300;
+  text-decoration: line-through;
+  margin-left: 5px;
+}
+.ortamenu2{
+  width: 100%;
+  height: auto;
+  background-color: rgb(230, 39, 39);
+  display: flex;
+  flex-direction: row;
+}
+.resimm{
+  width: 500px;
+  height: 400px;
+  margin: 20px;
+}
+#rsmm{
+  width: 550px;
+  height: 400px;
+}
+.yzlr{
+  margin: 25px;
+  width: 500px;
+  margin-left: 35px;
+  color: white;
+}
+.buton{
+  width: 120px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 35px;
+}
+.ortamenu3{
+  width: 100%;
+  height: auto;
+  background-color: rgb(230, 39, 39);
+  display: flex;
+  flex-direction: row;
+}
+.cards{
+  width: 350px;
+  height: 500px;
+  background-color: white;
+  border-radius: 25px;
+  margin: 15px;
+  flex-direction: row;
+}
+.virgul{
+  width: 300px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vrgl{
+  width: 300px;
+  height: 250px;
+}
+.vresim{
+  width: 250px;
+  height: 250px;
+}
+.yz{
+  width: 350px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.yz2{
+  margin-left: 20px;
+}
+.rsmkapsayici{
+  width: 350px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.rsmi{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.isim{
+  color: red;
+  font-size: 20px;
+  width: auto;
+  height: auto;
+}
+.yildiz{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.ortamenu4{
+  width: 100%;
+  height: auto;
+  background-color: rgb(230, 39, 39);
+  display: flex;
+  flex-direction: row;
+}
+.solkisim{
+  width: 600px;
+  height: 450px;
+  border: 2px solid rgb(73, 73, 224);
+  margin-top: 35px;
+  margin-left: 35px;
+}
+.sagkisim{
+  width: 600px;
+  height: 455px;
+  background-color: rgb(31, 30, 30);
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.klnyz{
+  width: 600px;
+  height: auto;
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.yazilar{
+  width: 600px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.kyz{
+  color: white;
+  margin: 5px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.yazilarkutu{
+  width: 500px;
+  height: 100px;
+  border: 2px solid white;
+  margin: 5px;
+}
+.bt{
+  width: 150px;
+  height: 60px;
+  background-color: white;
+  color: red;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ortamenu5{
+  width: 100%;
+  height: auto;
+  background-color: rgb(230, 39, 39);
+  display: flex;
+  flex-direction: row;
+}
+.rs2{
+  width: 350px;
+  height: 250px;
+}
+.rs{
+  width: 350px;
+  height: 250px;
+  overflow: hidden;
+  transition: 500ms;
+}
+.rs:hover{
+  scale: 110%;
+}
+.yaz{
+  font-size: 25px;
+  margin: 5px;
+}
+.yaz2{
+  font-size: 20px;
+  margin: 5px;
+}
+.lrm{
+  color: rgba(0, 0, 0, 0.514);
+  margin: 5px;
+}
+.reskutu{
+  width: 350px;
+  height: 500px;
+  background-color: white;
+  border-radius: 25px;
+  margin: 15px;
+  flex-direction: row;
+  overflow: hidden;
+}
+.sonkisim{
+  width: 100%;
+  height: 700px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.kpsyci{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kt{
+  width: 250px;
+  height: 50px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kt2{
+  width: 150px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.iconlarr{
+  width: 100%;
+  height: 60px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.menulr{
+  width: 100%;
+  height: 110px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.mnuler{
+  width: 120px;
+  height: 50px;
+  background-color: red;
+  border: 1px white solid;
+  margin: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: 500ms;
+}
+.mnuler:hover{
+  background-color: black;
+  color: white;
+}
